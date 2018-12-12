@@ -1,0 +1,28 @@
+language: python # => 1
+
+    python: # => 2
+      - "3.7"
+
+    services: # => 3
+      - mysql
+
+    env: # => 4
+      -DJANGO=2.1 DB=mysql
+
+    before_install:
+      - gem install mdl
+
+    install: # => 5
+      - pip install -r requirements.txt
+      - pip install --upgrade pip
+      - pip install proselint
+      - pip install -q Django==2.1
+      - python setup.py -q install
+
+    before_script: # => 6
+      - mysql -e 'create database test;' -u root
+
+    script: # => 7
+      - python3 manage.py test
+      - proselint README.md
+      - mdl README.md
