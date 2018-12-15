@@ -16,7 +16,6 @@ install:
   - pip install --upgrade pip
   - pip install proselint
   - pip install -q Django==2.1
-  - python setup.py -q install
 
 before_script:
   - mysql -e 'create database test;' -u root
