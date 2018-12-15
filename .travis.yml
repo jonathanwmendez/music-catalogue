@@ -21,6 +21,6 @@ before_script:
   - mysql -e 'create database test;' -u root
 
 script:
-  - python3 manage.py test
+  - python3 src/mysite/manage.py test
   - proselint README.md
   - mdl README.md
