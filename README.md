@@ -10,14 +10,12 @@ music and to access relevant information such as parts or a recording.
 
 ## How to Build and Run the Project
 
-### Build:
+### Build
 
 1. Use `chmod +x build.sh` to make the build file executable.
 2. Use `./build.sh` to run the build script.
 
-### Run:
-
-
+### Run
 
 ## How to Test the Application
 
