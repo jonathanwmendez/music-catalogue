@@ -13,7 +13,7 @@ music and to access relevant information such as parts or a recording.
 ### Build
 
 1. First, use `chmod +x build.sh` to make the build file executable.
-2. Last, use `./build.sh` to run the build script.
+2. Second, use `./build.sh` to run the build script.
 
 ### Run
 
