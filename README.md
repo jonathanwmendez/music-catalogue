@@ -25,7 +25,6 @@ music and to access relevant information such as parts or a recording.
 - Open `http://127.0.0.1:8000/admin/` to open the admin page.
 - Open `http://127.0.0.1:8000/polls/` to open the index page.
 
-
 ### Login
 
 #### Default Admin Account
@@ -35,7 +34,7 @@ music and to access relevant information such as parts or a recording.
 
 #### Creating a New Superuser
 
-- Run `python3 manage.py createsuperuser` and follow the prompted instructions. 
+- Run `python3 manage.py createsuperuser` and follow the prompted instructions.
 
 ## How to Test the Application
 
