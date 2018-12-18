@@ -17,6 +17,26 @@ music and to access relevant information such as parts or a recording.
 
 ### Run
 
+- Run `python3 manage.py runserver` to start the local server.
+- Open `http://127.0.0.1:8000/` in a browser to use the database.
+
+### Usage
+
+- Open `http://127.0.0.1:8000/admin/` to open the admin page.
+- Open `http://127.0.0.1:8000/polls/` to open the index page.
+
+
+### Login
+
+#### Default Admin Account
+
+- Username: exampleAdmin
+- Password: examplePassword
+
+#### Creating a New Superuser
+
+- Run `python3 manage.py createsuperuser` and follow the prompted instructions. 
+
 ## How to Test the Application
 
 The `.travis.yml` file creates a test instance of a sql database to called `test`
@@ -32,4 +52,4 @@ Continuous Integration.
 
 ## Tangible Results
 
-The GUI of the database.
+A user-friendly GUI that makes it easy to insert data in a database.
