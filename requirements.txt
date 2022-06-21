@@ -14,7 +14,7 @@ kiwisolver==1.0.1
 Markdown==3.0.1
 MarkupSafe==1.1.0
 matplotlib==2.2.3
-numpy==1.15.2
+numpy==1.22.0
 path-and-address==2.0.1
 pycairo==1.17.1
 Pygments==2.2.0
